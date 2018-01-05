@@ -105,19 +105,20 @@ func (this *Router) ServeHTTP(writer http.ResponseWriter, request *http.Request)
 	} else {
 		//当作静态资源处理。默认从当前文件下面的static文件夹中取东西。
 		dir := GetHtmlPath()
-		fmt.Println("current path: ", dir)
+
 		requestURI := request.RequestURI
 		if requestURI == "" || request.RequestURI == "/" {
 			requestURI = "index.html"
 		}
 
 		filePath := dir + requestURI
+		fmt.Println("request path: ", filePath)
 		exists, _ := PathExists(filePath)
 		if !exists {
 			filePath = dir + "/index.html"
 			exists, _ = PathExists(filePath)
 			if !exists {
-				fmt.Println("ququ---404 not found")
+				fmt.Println("ququ---404 not found: ", filePath)
 				panic("404 not found")
 			}
 		}
