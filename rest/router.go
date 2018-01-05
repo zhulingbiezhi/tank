@@ -2,12 +2,12 @@ package rest
 
 import (
 	"fmt"
-	"github.com/json-iterator/go"
 	"io"
 	"net/http"
 	"os"
 	"strings"
 
+	"github.com/json-iterator/go"
 )
 
 //用于处理所有前来的请求
@@ -105,7 +105,7 @@ func (this *Router) ServeHTTP(writer http.ResponseWriter, request *http.Request)
 	} else {
 		//当作静态资源处理。默认从当前文件下面的static文件夹中取东西。
 		dir := GetHtmlPath()
-
+		fmt.Println("current path: ", dir)
 		requestURI := request.RequestURI
 		if requestURI == "" || request.RequestURI == "/" {
 			requestURI = "index.html"
