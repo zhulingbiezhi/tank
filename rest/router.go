@@ -79,7 +79,7 @@ func (this *Router) ServeHTTP(writer http.ResponseWriter, request *http.Request)
 
 	path := request.URL.Path
 	if strings.HasPrefix(path, "/api") {
-
+		fmt.Println("api path: ", path)
 		if handler, ok := this.routeMap[path]; ok {
 
 			handler(writer, request)
