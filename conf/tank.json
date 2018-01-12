@@ -2,10 +2,10 @@
   "ServerPort": 6010,
   "LogToConsole": true,
   "MysqlPort": 3306,
-  "MysqlHost": "127.0.0.1",
+  "MysqlHost": "172.17.0.2",
   "MysqlSchema": "tank",
-  "MysqlUserName": "root",
-  "MysqlPassword": "root123",
+  "MysqlUserName": "tank",
+  "MysqlPassword": "tank123",
   "AdminUsername": "admin",
   "AdminEmail": "key.hu@bindo.com",
   "AdminPassword": "123456"
