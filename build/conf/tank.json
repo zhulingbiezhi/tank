@@ -1,12 +1,12 @@
 {
   "ServerPort": 6010,
-  "LogToConsole": false,
+  "LogToConsole": true,
   "MysqlPort": 3306,
   "MysqlHost": "127.0.0.1",
   "MysqlSchema": "tank",
-  "MysqlUserName": "tank",
-  "MysqlPassword": "tank123",
+  "MysqlUserName": "root",
+  "MysqlPassword": "root123",
   "AdminUsername": "admin",
-  "AdminEmail": "admin@tank.eyeblue.cn",
+  "AdminEmail": "key.hu@bindo.com",
   "AdminPassword": "123456"
 }

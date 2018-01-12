@@ -1,0 +1,11 @@
+[Panic]2018/01/12 18:06:22 无法打开root:root123@tcp(127.0.0.1:3306)/tank?charset=utf8&parseTime=True&loc=Local
+[Info]2018/01/12 18:07:06 创建DownloadToken表
+[Info]2018/01/12 18:07:06 创建Matter表
+[Info]2018/01/12 18:07:06 创建Preference表
+[Info]2018/01/12 18:07:06 创建Session表
+[Info]2018/01/12 18:07:06 创建UploadToken表
+[Info]2018/01/12 18:07:06 创建User表
+[Info]2018/01/12 18:07:06 App started at http://localhost:6010
+[Error]2018/01/12 18:07:16 全局异常: 404 not found
+[Error]2018/01/12 18:07:16 全局异常: 404 not found
+[Info]2018/01/12 18:09:37 App started at http://localhost:6010
