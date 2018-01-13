@@ -1,5 +1,9 @@
 ![蓝眼云盘logo](https://raw.githubusercontent.com/eyebluecn/tank/master/build/doc/img/logo.png)
+############################################################
 
+# docker run -v /root/tank/matter:/go/src/tank/matter -p 6010:6010 zhulingbiezhi/tank:master
+
+############################################################
 # 蓝眼云盘
 
 ##### [在线Demo](http://tank.eyeblue.cn) (体验账号： demo@tank.eyeblue.cn 密码：123456)
